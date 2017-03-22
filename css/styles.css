@@ -4,6 +4,8 @@
 }
 
 .rotate-back-one-eighty {
-  transform: rotate(-180deg);
+  transform: rotate(0deg);
   transition: .5s;
 }
+
+.dropdown-toggle::after { display: none; }
