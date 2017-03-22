@@ -17,3 +17,10 @@ var dropdown_status = document.getElementById('navbarDropdownMenuLink').attribut
 
 // the path of the current page (basically the file name)
 var current_path = window.location.pathname.split('/').slice(-1).toString();
+var dropdown = document.getElementById('navbarDropdownMenuLink')
+
+dropdown.addEventListener("click", rotate);
+
+function rotate() {
+  dropdown.classList.add("rotate-one-eighty");
+}
