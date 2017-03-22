@@ -11,3 +11,9 @@ document.getElementById("do-something-button").addEventListener("click", display
 function displayDate() {
     document.getElementById("show-it").innerHTML = Date();
 }
+
+// this indicates the dropdown status
+var dropdown_status = document.getElementById('navbarDropdownMenuLink').attributes[5].nodeValue
+
+// the path of the current page (basically the file name)
+var current_path = window.location.pathname.split('/').slice(-1).toString();

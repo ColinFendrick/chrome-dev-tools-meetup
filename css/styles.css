@@ -1,0 +1,9 @@
+.rotate-one-eighty {
+  transform: rotate(180deg);
+  transition: .5s;
+}
+
+.rotate-back-one-eighty {
+  transform: rotate(-180deg);
+  transition: .5s;
+}
