@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 var x = "I'm a variable"
 
-x
+console.log(x);
 
 document.getElementById("do-something-button").addEventListener("click", displayDate);
 
